@@ -1,0 +1,9 @@
+user: tarefa1
+pass: projetos
+database: projetos
+
+explorar endpoints em REST, como os definir tendo em conta as relações entre entidades/tabelas
+
+No end point obter o detalhe do projeto 
+obter as suas tarefas
+
