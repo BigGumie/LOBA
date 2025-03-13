@@ -1,10 +1,9 @@
 const nodemailer = require('nodemailer');
 
-// Configuração do transporte de email
 const transporter = nodemailer.createTransport({
   host: 'smtp.mailersend.net',
   port: 587,
-  secure: false, // true para 465, false para outras portas
+  secure: false, 
   auth: {
     user: 'MS_CiJ6fK@trial-x2p0347nezplzdrn.mlsender.net',
     pass: 'mssp.ZOYgpKY.yzkq340kr6xgd796.O8rOe7m'
@@ -14,7 +13,6 @@ const transporter = nodemailer.createTransport({
   }
 });
 
-// Função para enviar email
 const sendEmail = async (to, subject, text) => {
   try {
     const mailOptions = {
