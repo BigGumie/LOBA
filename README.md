@@ -1,20 +1,20 @@
 
 # Tarefa 1
 
-Este projeto é uma API de autenticação e gerenciamento de usuários desenvolvida em Node.js utilizando o framework Express. A API permite que os usuários se registrem, façam login e recebam um token JWT para autenticação. Além disso, a API envia um email de boas-vindas ao usuário após o registro.
+Este projeto é uma API de autenticação e gerenciamento de utilizadores desenvolvida em Node.js utilizando o framework Express. A API permite que os utilizadores se registrem, façam login e recebam um token JWT para autenticação. Além disso, a API envia um email de boas-vindas ao usuário após o registro.
 
 
 ## Funcionalidades
-1. **Registro de Usuário**
+1. **Registro de utilizador**
 
 - Endpoint: `POST /auth/register`
-- O usuário pode se registrar fornecendo um nome, email e senha.
+- O utilizador pode se registrar fornecendo um nome, email e senha.
 - A senha é criptografada usando bcrypt antes de ser armazenada no banco de dados.
 - Um token JWT é gerado e enviado ao usuário por email como parte da mensagem de boas-vindas.
 
-2. **Login de Usuário:**
+2. **Login de utilizador:**
 - Endpoint: `POST /auth/login`
-- O usuário pode fazer login fornecendo email e senha.
+- O utilizador pode fazer login fornecendo email e senha.
 - A senha fornecida é comparada com a senha criptografada armazenada no banco de dados.
 - Se as credenciais estiverem corretas, o token JWT gerado durante o registro é retornado ao usuário.
 
