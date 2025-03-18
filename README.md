@@ -27,8 +27,6 @@ Este projeto é uma API de autenticação e gerenciamento de usuários desenvolv
 - **jsonwebtoken**: Geração e verificação de tokens JWT.
 - **nodemailer**: Biblioteca para envio de emails.
 - **PostgreSQL**: Banco de dados relacional.
-- **Swagger**: Decumentação da API
-- **JOI**: Validação de dados
 
 ## Estrutura do Projeto
 
@@ -36,9 +34,7 @@ Este projeto é uma API de autenticação e gerenciamento de usuários desenvolv
 - **models/usuario.js**: Define o modelo de dados do usuário.
 - **services/mailService.js**: Configura o serviço de email usando Nodemailer.
 - **routes/authRoutes.js**: Define as rotas de autenticação.
-- **schemas**: Define esquemas de validação.
 - **server.js**: Configura o servidor Express e define as rotas principais.
-- **swagger.json**: Configura a decumentação da API
 
 ## Exemplos de uso
 
@@ -73,34 +69,4 @@ Este projeto é uma API de autenticação e gerenciamento de usuários desenvolv
  - [RESTful API with Express, Sequelize, and JWT Authentication](https://medium.com/@fanbubu0/building-a-restful-api-with-express-sequelize-and-jwt-authentication-2bd8c4b78599)
  - [Login Implementation with JWT in Node.js using Postgres and Sequelize](https://medium.com/@kizito917/sign-up-and-login-implementation-with-jwt-in-node-js-using-postgres-and-sequelize-7093491b080f)
  - [Node.js Authentication with PostgreSQL, Sequelize, and Express.js](https://medium.com/@rachealkuranchie/node-js-authentication-with-postgresql-sequelize-and-express-js-20ae773da4c9)
-  - [JOI](https://joi.dev/api/?v=17.13.3)
-  - [Swagger](https://swagger.io)
-
-
-
-## Usar Localmente
-
-Clone the project
-
-```bash
-  git clone https://github.com/BigGumie/LOBA.git
-```
-
-Go to the project directory
-
-```bash
-  cd Tarefa-1-API
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
 
